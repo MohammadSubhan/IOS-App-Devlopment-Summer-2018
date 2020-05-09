@@ -1,0 +1,202 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     2015_2016_training_data
+Instances:    1416
+Attributes:   23
+              FG
+              FGA
+              FG%
+              3P
+              3PA
+              3P%
+              2P
+              2PA
+              2P%
+              FT
+              FTA
+              FT%
+              ORB
+              DRB
+              TRB
+              AST
+              STL
+              BLK
+              TOV
+              PF
+              PTS
+              W
+              Top_Team_Won
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute        False    True
+                (0.41)  (0.59)
+===============================
+FG
+  mean          -0.7085  0.4755
+  std. dev.      2.1202  2.1116
+  weight sum        575     841
+  precision      0.1276  0.1276
+
+FGA
+  mean          -0.0941  0.0618
+  std. dev.      2.9054  2.9532
+  weight sum        575     841
+  precision      0.1333  0.1333
+
+FG%
+  mean           -0.008  0.0054
+  std. dev.      0.0217  0.0223
+  weight sum        575     841
+  precision        0.01    0.01
+
+3P
+  mean          -0.5004  0.3415
+  std. dev.      2.3797  2.4105
+  weight sum        575     841
+  precision      0.1351  0.1351
+
+3PA
+  mean          -0.7567   0.508
+  std. dev.      5.8934  6.0783
+  weight sum        575     841
+  precision       0.129   0.129
+
+3P%
+  mean          -0.0089  0.0061
+  std. dev.      0.0254  0.0257
+  weight sum        575     841
+  precision        0.01    0.01
+
+2P
+  mean          -0.2096  0.1354
+  std. dev.      2.8195  2.9312
+  weight sum        575     841
+  precision       0.103   0.103
+
+2PA
+  mean           0.6716 -0.4522
+  std. dev.      5.6475  5.7534
+  weight sum        575     841
+  precision      0.1217  0.1217
+
+2P%
+  mean           -0.009  0.0059
+  std. dev.      0.0249  0.0249
+  weight sum        575     841
+  precision        0.01    0.01
+
+FT
+  mean          -0.0253  0.0338
+  std. dev.      2.2003  2.1987
+  weight sum        575     841
+  precision      0.1127  0.1127
+
+FTA
+  mean           0.0931 -0.0498
+  std. dev.      3.1832  3.1173
+  weight sum        575     841
+  precision       0.119   0.119
+
+FT%
+  mean          -0.0046  0.0034
+  std. dev.      0.0494  0.0495
+  weight sum        575     841
+  precision        0.01    0.01
+
+ORB
+  mean           0.0379 -0.0232
+  std. dev.      1.5722  1.6071
+  weight sum        575     841
+  precision      0.1116  0.1116
+
+DRB
+  mean          -0.6188  0.4227
+  std. dev.      1.7796  1.7771
+  weight sum        575     841
+  precision      0.1213  0.1213
+
+TRB
+  mean          -0.5843  0.4025
+  std. dev.      2.3977  2.3983
+  weight sum        575     841
+  precision      0.1194  0.1194
+
+AST
+  mean          -0.7168    0.47
+  std. dev.      3.1712  3.1848
+  weight sum        575     841
+  precision      0.1453  0.1453
+
+STL
+  mean          -0.0641  0.0401
+  std. dev.      1.4024  1.3827
+  weight sum        575     841
+  precision      0.1162  0.1162
+
+BLK
+  mean          -0.2134  0.1483
+  std. dev.       1.179  1.2171
+  weight sum        575     841
+  precision         0.1     0.1
+
+TOV
+  mean           0.2681 -0.1991
+  std. dev.      1.6756  1.6136
+  weight sum        575     841
+  precision       0.107   0.107
+
+PF
+  mean           0.2482 -0.1647
+  std. dev.      1.7288  1.7885
+  weight sum        575     841
+  precision      0.1156  0.1156
+
+PTS
+  mean          -1.9395  1.3234
+  std. dev.      5.1355  5.0966
+  weight sum        575     841
+  precision      0.1492  0.1492
+
+W
+  mean         -10.1187  7.0137
+  std. dev.     17.6206 17.5815
+  weight sum        575     841
+  precision      1.2353  1.2353
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          12               80      %
+Incorrectly Classified Instances         3               20      %
+Kappa statistic                          0     
+Mean absolute error                      0.2654
+Root mean squared error                  0.4191
+Relative absolute error                 59.822  %
+Root relative squared error             93.1266 %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.583     0.306     False
+                 1.000    1.000    0.800      1.000    0.889      ?        0.583     0.874     True
+Weighted Avg.    0.800    0.800    ?          0.800    ?          ?        0.583     0.761     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  0  3 |  a = False
+  0 12 |  b = True
